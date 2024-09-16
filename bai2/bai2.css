@@ -1,0 +1,44 @@
+#container{
+    padding: 0 60px 20px 60px;
+    border: 2px solid rgb(7, 7, 116);
+    width: 600px;
+}
+#title{
+    text-align: center;
+}
+#product_name, #product_price, #product_quantity, #button{
+    margin-top: 10px;
+}
+#in_name{
+    margin-left: 22px;
+}
+#in_qty{
+    margin-left: 5px;
+}
+#in_pr{
+    margin-left: 26px;
+}
+#add{
+    background-color: rgb(2, 2, 78);
+    color: white;
+    border-radius: 4px;
+}
+#tb{
+    margin-top: 20px;
+    width: 600px;
+    border-spacing: 0; 
+    /* border: 1px solid #bbb; */
+}
+#tb tr{
+    height: 25px;
+}
+#tb tr th, #tb tr td{
+    text-align: left;
+    border-bottom: 1px solid #eee7e7;
+    height:40px;
+    padding-left: 10px;
+}
+#tb tr th{
+    background-color: rgb(2, 2, 84);
+    color: white;
+}
